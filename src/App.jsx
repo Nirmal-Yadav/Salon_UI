@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./pages/Header.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Dashboard />
     </div>
   );
 }

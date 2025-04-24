@@ -1,0 +1,28 @@
+.header {
+  /* display: flex;
+  justify-content: center; */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header span {
+  opacity: 0;
+  transform: translateX(20px);
+  animation: appear 0.5s forwards;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.header-container {
+  border: 2px solid red;
+  min-height: 100px;
+  width: 100%;
+}
+.dashboard-container {
+  width: 100%;
+}
