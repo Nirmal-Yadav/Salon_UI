@@ -5,10 +5,10 @@ function Main() {
   const text = "Let Your Hair Do The Talking";
   return (
     <div className="main-container-1">
-      <div>
-        The Barber Shop Come <br /> And Experience
-      </div>
       <div className="header">
+        <div className="t1">
+          The Barber Shop Come <br /> And Experience
+        </div>
         {text.split("").map((char, i) => (
           <span key={i} style={{ animationDelay: `${i * 0.3}s` }}>
             {char === " " ? "\u00A0" : char}

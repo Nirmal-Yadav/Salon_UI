@@ -11,6 +11,10 @@
   animation: appear 0.5s forwards;
 }
 
+.header {
+  padding-bottom: 10px;
+}
+
 @keyframes appear {
   to {
     opacity: 1;
@@ -25,4 +29,68 @@
 }
 .dashboard-container {
   width: 100%;
+}
+.t1 {
+  font-size: large;
+  color: #e1c956;
+}
+
+.main-container-1 {
+  background-image: url("https://cdn.prod.website-files.com/6414ea8b0167935772a581d3/6515b595afac9b0829c2ec16_barbershop2-p-1600.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+}
+
+/* .review-button {
+  width: 150px;
+  background-color: #e1c956;
+  font-size: larger;
+  color: white;
+  font-weight: 550;
+  margin-top: 70px;
+}
+
+.review-button:hover {
+  background-color: transparent; 
+  color: #e1c956; 
+  border: 1px solid #e1c956; }
+*/
+.review-button {
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  background-color: transparent;
+  font-size: larger;
+  color: White;
+  font-weight: 550;
+  margin-top: 70px;
+  border: 1px solid #e1c956;
+  border-radius: 8px;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+/* Animated background layer */
+.review-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #e1c956;
+  border-radius: inherit;
+  transition: transform 1s ease;
+  transform: scale(1); /* scale in both X and Y */
+  transform-origin: center;
+  z-index: -1;
+}
+
+/* On hover: shrink inward (both horizontally & vertically) */
+.review-button:hover::before {
+  transform: scale(0); /* shrink to center */
+}
+
+/* Text and border styling on hover */
+.review-button:hover {
+  color: #e1c956;
 }
