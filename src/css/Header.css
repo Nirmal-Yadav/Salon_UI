@@ -2,7 +2,8 @@
   /* display: flex;
   justify-content: center; */
   font-size: 2rem;
-  font-weight: bold;
+
+  margin-left: 20px;
 }
 
 .header span {
@@ -23,24 +24,39 @@
 }
 
 .header-container {
-  border: 2px solid red;
-  min-height: 100px;
+  /* border: 2px solid red; */
+  min-height: 120px;
   width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer;
 }
 .dashboard-container {
   width: 100%;
 }
 .t1 {
-  font-size: large;
+  font-size: 25px;
   color: #e1c956;
+  font-weight: 550;
+}
+.t2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
 }
 
 .main-container-1 {
-  background-image: url("https://cdn.prod.website-files.com/6414ea8b0167935772a581d3/6515b595afac9b0829c2ec16_barbershop2-p-1600.webp");
+  background-image: url("../assets/haircut2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 85vh;
 }
 
 /* .review-button {
@@ -70,6 +86,7 @@
   border-radius: 8px;
   z-index: 1;
   transition: color 0.3s ease;
+  margin-left: 20px;
 }
 
 /* Animated background layer */
@@ -92,5 +109,49 @@
 
 /* Text and border styling on hover */
 .review-button:hover {
+  color: #e1c956;
+}
+
+.head-option-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  width: 60%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  /* border: 2px solid red; */
+  width: 80%;
+}
+.salon-logo {
+  height: 80px;
+  border-radius: 20px;
+}
+/* .appointment-button {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+} */
+.appointment-button {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  cursor: pointer;
+}
+
+.appointment-button:hover {
+  background-color: white;
   color: #e1c956;
 }
