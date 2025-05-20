@@ -25,13 +25,15 @@
 
 .header-container {
   /* border: 2px solid red; */
-  min-height: 120px;
+  min-height: 147px;
   width: 100%;
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   cursor: pointer;
+  position: sticky;
+  top: 0;
 }
 .dashboard-container {
   width: 100%;
@@ -48,7 +50,7 @@
 }
 
 .main-container-1 {
-  background-image: url("../assets/haircut2.png");
+  background-image: url("../../public/haircut1.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -59,20 +61,6 @@
   justify-content: center;
 }
 
-/* .review-button {
-  width: 150px;
-  background-color: #e1c956;
-  font-size: larger;
-  color: white;
-  font-weight: 550;
-  margin-top: 70px;
-}
-
-.review-button:hover {
-  background-color: transparent; 
-  color: #e1c956; 
-  border: 1px solid #e1c956; }
-*/
 .review-button {
   position: relative;
   overflow: hidden;
@@ -89,7 +77,6 @@
   margin-left: 20px;
 }
 
-/* Animated background layer */
 .review-button::before {
   content: "";
   position: absolute;
@@ -97,17 +84,14 @@
   background-color: #e1c956;
   border-radius: inherit;
   transition: transform 1s ease;
-  transform: scale(1); /* scale in both X and Y */
+  transform: scale(1);
   transform-origin: center;
   z-index: -1;
 }
 
-/* On hover: shrink inward (both horizontally & vertically) */
 .review-button:hover::before {
-  transform: scale(0); /* shrink to center */
+  transform: scale(0);
 }
-
-/* Text and border styling on hover */
 .review-button:hover {
   color: #e1c956;
 }
@@ -154,4 +138,68 @@
 .appointment-button:hover {
   background-color: white;
   color: #e1c956;
+}
+
+.section1-container {
+  background-color: #404040;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1-img1 {
+  height: 65vh;
+  border-radius: 50%;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 70%;
+}
+.section1-main1 {
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35vw;
+  height: 50vh;
+}
+.section1-button {
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #e1c956;
+  cursor: pointer;
+  transition: color 1s ease;
+  z-index: 1;
+}
+.section1-button:onhover {
+  color: white;
+}
+
+.section1-button::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  background-color: #e1c956;
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 1s ease;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.section1-button:hover::before {
+  transform: scale(2); /* expand outwards */
 }
