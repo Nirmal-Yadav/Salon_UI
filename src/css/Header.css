@@ -372,3 +372,38 @@
 .sec4-img-con:hover .sec4-t-con {
   visibility: visible;
 }
+
+.sec5-container {
+  height: 60vh;
+  background-image: url("../assets/hair-sec5-img.png");
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+}
+.sec5-t1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.sec5-t2 {
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.sec5-t3,
+.sec5-t4 {
+  width: 50%;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
