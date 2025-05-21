@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Header.css";
-import Section1 from "./Section1";
 
 function Main() {
   const text = "Let Your Hair Do The Talking";

@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
-import Main from "./main";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
+import Header from "./Header.jsx";
+import Main from "./Main.jsx";
+import Section1 from "./Section1.jsx";
+import Section2 from "./Section2.jsx";
 
 function Dashboard() {
   return (
