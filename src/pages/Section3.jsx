@@ -4,7 +4,7 @@ import img from "../assets/hair-sec3-img.png";
 function Section3() {
   return (
     <div className="section3-container">
-      <div>
+      <div className="image-wrapper">
         <img src={img} className="section3-img1" />
       </div>
       <div className="section3-t1">
