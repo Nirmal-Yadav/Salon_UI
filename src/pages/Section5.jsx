@@ -12,7 +12,7 @@ function Section5() {
         <span className="sec5-time">11AM - 10PM</span>
       </div>
       <div className="sec5-t4">
-        <span className="sec5-day">Weekend</span>
+        <span className="sec5-day">Weekends</span>
         <span className="sec5-time">10AM - 11AM</span>
       </div>
     </div>
