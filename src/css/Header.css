@@ -203,3 +203,72 @@
 .section1-button:hover::before {
   transform: scale(2); /* expand outwards */
 }
+
+.section2-container {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2-t1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  margin: 30px;
+}
+
+.section2-t2 {
+  color: white;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.section2-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+}
+
+.card-container {
+  width: 23vw;
+  height: 30vh;
+
+  padding: 50px 30px 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card-container:hover {
+  background-image: url("../assets/cardimg1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-t1 {
+  color: white;
+  font-size: x-large;
+  font-weight: 550;
+}
+.card-t2 {
+  color: white;
+  font-size: large;
+}
+.card-button {
+  width: 350px;
+  background-color: transparent;
+  border: 2px solid #e1c956;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
