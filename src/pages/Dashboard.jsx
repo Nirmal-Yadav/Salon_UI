@@ -3,6 +3,7 @@ import Header from "./Header.jsx";
 import Main from "./Main.jsx";
 import Section1 from "./Section1.jsx";
 import Section2 from "./Section2.jsx";
+import Section3 from "./Section3.jsx";
 
 function Dashboard() {
   return (
@@ -11,6 +12,7 @@ function Dashboard() {
       <Main />
       <Section1 />
       <Section2 />
+      <Section3 />
     </div>
   );
 }
