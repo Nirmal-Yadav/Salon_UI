@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/hair-sec3-img.png";
+import "../css/Section3.css";
 
 function Section3() {
   return (

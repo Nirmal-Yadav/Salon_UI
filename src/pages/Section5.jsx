@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Section5.css";
 
 function Section5() {
   return (

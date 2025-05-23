@@ -4,6 +4,7 @@ import img2 from "../assets/hair-sec4-img2.jpg";
 import img3 from "../assets/hair-sec4-img3.jpg";
 import img4 from "../assets/hair-sec4-img4.jpg";
 import img5 from "../assets/hair-sec4-img5.jpg";
+import "../css/Section4.css";
 
 function Section4() {
   return (
