@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Header.css";
+import "../css/Section1.css";
 import img from "../assets/haircut2.png";
 
 function Section1() {
@@ -23,7 +23,7 @@ function Section1() {
             At HMX by Hairmechanixx, our mission is to ensure that everyone who
             visits us walks away feeling and looking their best.
           </div>
-          <button className="section1-button">Our Pricing</button>
+          <button className="review-button">Our Pricing</button>
         </div>
       </div>
     </div>

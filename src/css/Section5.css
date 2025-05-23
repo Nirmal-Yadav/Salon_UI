@@ -1,0 +1,104 @@
+.sec5-container {
+  height: 60vh;
+  background-image: url("../assets/hair-sec5-img.png");
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+}
+.sec5-t1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.sec5-t2 {
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.sec5-t3,
+.sec5-t4 {
+  width: 50%;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Tablet view (≤1024px) */
+@media screen and (max-width: 1024px) {
+  .sec5-container {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .sec5-t2 {
+    margin-bottom: 60px;
+    font-size: medium;
+  }
+
+  .sec5-t3,
+  .sec5-t4 {
+    width: 70%;
+    font-size: large;
+  }
+}
+
+/* Mobile view (≤768px) */
+@media screen and (max-width: 768px) {
+  .sec5-container {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .sec5-t1 {
+    font-size: x-large;
+  }
+
+  .sec5-t2 {
+    font-size: medium;
+    margin-bottom: 40px;
+  }
+
+  .sec5-t3,
+  .sec5-t4 {
+    width: 90%;
+    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .sec5-day,
+  .sec5-time {
+    display: block;
+  }
+}
+
+/* Extra small screens (≤480px) */
+@media screen and (max-width: 480px) {
+  .sec5-t1 {
+    font-size: large;
+  }
+
+  .sec5-t2 {
+    font-size: small;
+  }
+
+  .sec5-t3,
+  .sec5-t4 {
+    width: 100%;
+    font-size: small;
+  }
+}

@@ -1,0 +1,27 @@
+.dashboard-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Responsive layout adjustments */
+@media screen and (max-width: 768px) {
+  .dashboard-container {
+    padding: 0 10px;
+  }
+
+  /* Optional: Set common responsive styles for section spacing */
+  .dashboard-container > * {
+    margin-bottom: 40px;
+  }
+}
+
+/* Extra small devices (phones < 480px) */
+@media screen and (max-width: 480px) {
+  .dashboard-container {
+    padding: 0 5px;
+  }
+
+  .dashboard-container > * {
+    margin-bottom: 30px;
+  }
+}

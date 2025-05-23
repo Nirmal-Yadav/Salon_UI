@@ -1,0 +1,122 @@
+/* ===== Default Desktop View ===== */
+.footer-main {
+  min-height: 80vh;
+  height: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../assets/hair-footer1-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.footer-logo-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.footer-logo1 {
+  border-radius: 50%;
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+}
+
+.footer-t1-con {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.footer-t1 {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-t5 {
+  padding-left: 600px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+/* ===== Tablet View (max-width: 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 40px;
+    gap: 40px;
+  }
+
+  .footer-logo-con,
+  .footer-t1-con {
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    flex: 1 1 40%;
+  }
+
+  .footer-logo1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer-t5 {
+    padding: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* ===== Mobile View (max-width: 768px) ===== */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .footer-logo-con,
+  .footer-t1-con {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: small;
+    height: auto;
+  }
+
+  .footer-logo1 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .footer-t1 {
+    font-size: large;
+  }
+
+  .footer-t5 {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 10px;
+    padding-left: 0;
+  }
+}

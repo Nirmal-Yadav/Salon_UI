@@ -6,6 +6,8 @@ import Section2 from "./Section2.jsx";
 import Section3 from "./Section3.jsx";
 import Section4 from "./Section4.jsx";
 import Section5 from "./Section5.jsx";
+import Footer from "./Footer.jsx";
+import "../css/Dashboard.css";
 
 function Dashboard() {
   return (
@@ -17,6 +19,7 @@ function Dashboard() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Footer />
     </div>
   );
 }

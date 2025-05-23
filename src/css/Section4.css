@@ -1,0 +1,156 @@
+.sec4-container {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.sec4-t1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.sec4-t2 {
+  color: white;
+  font-weight: 600;
+  font-size: large;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sec4-img-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.sec4-img-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sec4-img1,
+.sec4-img3,
+.sec4-img5 {
+  width: 16vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.sec4-img2,
+.sec4-img4 {
+  width: 16vw;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.sec4-img-t1 {
+  color: #e1c956;
+  padding-top: 20px;
+}
+
+.sec4-img-t2 {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sec4-t-con {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.sec4-img-con:hover .sec4-t-con {
+  visibility: visible;
+}
+
+/* Tablet (≤1024px) */
+@media screen and (max-width: 1024px) {
+  .sec4-container {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .sec4-img-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .sec4-img1,
+  .sec4-img2,
+  .sec4-img3,
+  .sec4-img4,
+  .sec4-img5 {
+    width: 35vw;
+    height: auto;
+  }
+
+  .sec4-img-t2 {
+    font-size: medium;
+    text-align: center;
+  }
+}
+
+/* Mobile (≤768px) */
+@media screen and (max-width: 768px) {
+  .sec4-container {
+    height: auto;
+    padding: 40px 15px;
+  }
+
+  .sec4-img-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sec4-img1,
+  .sec4-img2,
+  .sec4-img3,
+  .sec4-img4,
+  .sec4-img5 {
+    width: 80vw;
+    height: auto;
+  }
+
+  .sec4-img-t1,
+  .sec4-img-t2 {
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices (≤480px) */
+@media screen and (max-width: 480px) {
+  .sec4-img1,
+  .sec4-img2,
+  .sec4-img3,
+  .sec4-img4,
+  .sec4-img5 {
+    width: 90vw;
+  }
+
+  .sec4-t1 {
+    font-size: x-large;
+  }
+
+  .sec4-t2 {
+    font-size: medium;
+  }
+}

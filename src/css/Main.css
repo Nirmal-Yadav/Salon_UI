@@ -1,0 +1,112 @@
+.header {
+  font-size: 2rem;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.header span {
+  opacity: 0;
+  transform: translateX(20px);
+  animation: appear 0.5s forwards;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.t1 {
+  font-size: 25px;
+  color: #e1c956;
+  font-weight: 550;
+}
+
+.t2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.main-container-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/haircut1.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review-button {
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  background-color: transparent;
+  font-size: larger;
+  color: white;
+  font-weight: 550;
+  margin-top: 70px;
+  border: 1px solid #e1c956;
+  border-radius: 8px;
+  z-index: 1;
+  transition: color 0.3s ease;
+  margin-left: 20px;
+}
+
+.review-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #e1c956;
+  border-radius: inherit;
+  transition: transform 1s ease;
+  transform: scale(1);
+  transform-origin: center;
+  z-index: -1;
+}
+
+.review-button:hover::before {
+  transform: scale(0);
+}
+.review-button:hover {
+  color: #e1c956;
+}
+
+/* ------------------------------
+   MEDIA QUERIES FOR MOBILE VIEW
+------------------------------- */
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .t1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .t2 {
+    font-size: 28px;
+  }
+
+  .main-container-1 {
+    height: auto;
+    padding: 40px 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .review-button {
+    width: 130px;
+    font-size: 1rem;
+    margin-top: 40px;
+    margin-left: 0;
+    align-self: center;
+  }
+}

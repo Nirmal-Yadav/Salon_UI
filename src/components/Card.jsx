@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Section2.css";
 
 function Card() {
   return (
