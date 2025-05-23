@@ -32,7 +32,7 @@ function Main() {
             </React.Fragment>
           ))}
         </div>
-        <button className="review-button">Our Review</button>
+        <button className="review-button">Our Reviews</button>
       </div>
     </>
   );

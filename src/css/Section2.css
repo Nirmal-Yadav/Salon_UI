@@ -85,6 +85,14 @@
   color: black;
 }
 
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
 /* --- RESPONSIVE BREAKPOINTS --- */
 
 /* Tablets (2 columns) */
@@ -118,5 +126,26 @@
 
   .card-button {
     font-size: 0.9rem;
+  }
+
+  .section2-card-container {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+    width: 100%;
+  }
+
+  .section2-carousel .swiper-button-prev,
+  .section2-carousel .swiper-button-next {
+    color: white;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white;
+    opacity: 0.4;
+    font-size: 16px;
+    scale: 0.8;
   }
 }
