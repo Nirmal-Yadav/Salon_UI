@@ -35,7 +35,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-t5">
-        Copyright © 2025 Hairmechanixx. All rights reserved.
+        Copyright © 2025 Brandsalon. All rights reserved.
       </div>
     </div>
   );

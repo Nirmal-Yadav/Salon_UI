@@ -14,6 +14,11 @@ function Section3() {
         <br /> just one of those zones where nobody's going to
         <br /> judge you too much about your dumb opinion
       </div>
+      <div className="section3-t1-mv">
+        There's things peope say in the barbershop they won't even say in their
+        own living room, because it's just one of those zones where nobody's
+        going to judge you too much about your dumb opinion
+      </div>
     </div>
   );
 }

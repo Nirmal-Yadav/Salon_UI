@@ -15,7 +15,8 @@
   text-align: center;
 }
 
-.section2-t2 {
+.section2-t2,
+.section2-t2-mv {
   color: white;
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -93,6 +94,10 @@
   display: none;
 }
 
+.section2-t2-mv {
+  display: block;
+}
+
 /* --- RESPONSIVE BREAKPOINTS --- */
 
 /* Tablets (2 columns) */
@@ -109,6 +114,10 @@
   }
 
   .section2-t2 {
+    display: none;
+  }
+  .section2-t2-mv {
+    display: flex;
     font-size: 1rem;
   }
 

@@ -20,7 +20,7 @@ function Section1() {
             when you know your barber or hair stylist has nailed your look.
           </div>
           <div>
-            At HMX by Hairmechanixx, our mission is to ensure that everyone who
+            At HMX by Brandsalon, our mission is to ensure that everyone who
             visits us walks away feeling and looking their best.
           </div>
           <button className="review-button">Our Pricing</button>

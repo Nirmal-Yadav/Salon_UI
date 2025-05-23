@@ -12,11 +12,17 @@ function Section2() {
     <div className="section2-container">
       <div className="section2-t1">Our Services</div>
       <div className="section2-t2">
-        At HMX By Hairmechanixx our mission is to ensure that everyone who
-        visits us
+        At HMX By Brandsalon our mission is to ensure that everyone who visits
+        us
         <br />
         {`\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0
           \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0`}
+        walks away feeling and looking their best.
+      </div>
+      <div className="section2-t2-mv">
+        At HMX By Brandsalon our mission is to ensure that everyone who visits
+        us
+        <br />
         walks away feeling and looking their best.
       </div>
       <div className="section2-card-container">
@@ -47,39 +53,3 @@ function Section2() {
 }
 
 export default Section2;
-
-// import React from "react";
-// import Card from "../components/Card.jsx";
-// import "../css/Section2.css";
-
-// // Swiper modules
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation } from "swiper/modules";
-// import "swiper/css";
-// import "swiper/css/navigation";
-
-// function Section2() {
-//   const cards = [1, 2, 3, 4, 5, 6]; // simulate multiple cards
-
-//   return (
-//     <div className="section2-container">
-//       <div className="section2-t1">Our Services</div>
-//       <div className="section2-t2">
-//         At HMX By Hairmechanixx our mission is to ensure that everyone who
-//         visits us
-//         <br />
-//         {`\u00A0`.repeat(40)}walks away feeling and looking their best.
-//       </div>
-
-//       {/* Desktop Grid */}
-//       <div className="section2-card-container desktop-only">
-//         {cards.map((_, index) => (
-//           <Card key={index} />
-//         ))}
-//       </div>
-
-//     </div>
-//   );
-// }
-
-// export default Section2;
