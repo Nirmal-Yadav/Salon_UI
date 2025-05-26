@@ -25,3 +25,8 @@
     margin-bottom: 0;
   }
 }
+
+.nav-link {
+  all: unset;
+  cursor: pointer;
+}

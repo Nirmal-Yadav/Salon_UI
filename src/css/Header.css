@@ -92,6 +92,10 @@
   display: none;
 }
 
+.nav-link {
+  all: unset;
+  cursor: pointer;
+}
 /* Mobile / Tablet View */
 @media (max-width: 1024px) {
   .header-content {
