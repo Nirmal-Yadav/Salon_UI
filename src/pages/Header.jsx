@@ -48,7 +48,7 @@ function Header() {
       {/* Mobile panel */}
       {isOpen && (
         <div className="mobile-panel">
-          <NavLink to="/" className="nav-link" onClick={toggleMenu}>
+          <NavLink to="/menu" className="nav-link" onClick={toggleMenu}>
             MENU
           </NavLink>
           <NavLink to="/services" onClick={toggleMenu} className="nav-link">
@@ -63,9 +63,9 @@ function Header() {
           <NavLink to="/gallery" onClick={toggleMenu} className="nav-link">
             GALLERY
           </NavLink>
-          <NavLink to="/review" onClick={toggleMenu} className="nav-link">
+          <NavLink to="/appointment" onClick={toggleMenu} className="nav-link">
             <button className="review-button mobile-appoint-btn">
-              Review / Appointment
+              Appointment
             </button>
           </NavLink>
         </div>

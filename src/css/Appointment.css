@@ -1,7 +1,7 @@
 .appointment-container {
   background-color: #303030;
   height: 80vh;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +52,7 @@
 
 @media (max-width: 480px) {
   .appointment-container {
-    padding: 15px;
+    padding-right: 15px;
   }
 
   .appointment-form input,
@@ -60,5 +60,6 @@
   .appointment-form textarea,
   .appointment-form button {
     font-size: 0.95rem;
+    width: 300px;
   }
 }
